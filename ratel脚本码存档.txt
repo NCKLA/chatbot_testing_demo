@@ -1,0 +1,12 @@
+//DECLARE 猫粮种类,地点,快递种类,支付方式,猫种类,猫的爱称,投诉,数量,价格,时间段,价格评价,支付宝,快递单号,其他商品;
+STRINGLIST 快递名称_list={"申通","韵达","顺丰"};
+MARKFAST(快递名称,快递名称_list);
+STRINGLIST 地点_list={"北京","石家庄","成都"};
+MARKFAST(地点,地点_list);
+STRINGLIST 快递种类_list={"普快","次日","陆运"};
+MARKFAST(快递种类,快递种类_list);
+STRINGLIST 猫粮种类_list = {"鱼","虾","鸡","牛","南瓜","鸡肉","肌肉","鸡腿","三文鱼","南瓜","鱼鱼","鳕鱼","原切鸡"};
+MARKFAST(猫粮种类,猫粮种类_list);
+
+STRINGLIST list = {"",""};
+//MARKFAST(,_list);
